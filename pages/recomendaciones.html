@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu cuenta</title>
+</head>
+<body style="background-color: rgb(193, 179, 206);">
+    <h1 style="text-align: center; color: rgb(37, 9, 61);">Recomienda Música</h1>  
+    <br><br>
+    <header>  
+        <nav>  
+            <ul style="list-style-type: none; padding: 0; text-align: center;">  
+                <li style="display: inline; margin-right: 15px;  background-color:rgb(158, 46, 158);font-family:'Lucida Bright'; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;"><a href="../index.html" style="color:white; text-decoration:none;">Inicio</a></li>  
+                <li style="display: inline; margin-right: 15px;  background-color:rgb(158, 46, 158);font-family:'Lucida Bright'; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;"><a href="#" style="color:white; text-decoration:none;">Explorar Música</a></li>   
+            </ul>  
+        </nav>
+    </header>  
+    <br>
+    <main>  
+        <h2 style="text-align: center;">Recomienda tu canción favorita de k-pop</h2>  
+        <form style="max-width: 600px; margin: auto;">  
+            <table style="width: 100%; border-spacing: 10px;">  
+                <tr>  
+                    <td><strong>Nombre:</strong></td>  
+                    <td><input type="text" id="fname" name="fname" placeholder="Tu nombre" required></td>  
+                </tr>  
+                <tr>  
+                    <td><strong>Correo Electrónico:</strong></td>  
+                    <td><input type="email" name="inputemail" id="inputemail" placeholder="user@correo.com" required></td>  
+                </tr>  
+                <tr>  
+                    <td><strong>Título de la Canción:</strong></td>  
+                    <td><input type="text" id="title" name="title" placeholder="Título de la canción" required></td>  
+                </tr>  
+                <tr>  
+                    <td><strong>Artista:</strong></td>  
+                    <td><input type="text" id="artist" name="artist" placeholder="Nombre del artista" required></td>  
+                </tr>  
+                <tr>  
+                    <td><strong>País:</strong></td>  
+                    <td>  
+                        <select name="cname" id="cname">  
+                            <option value="mx">México</option>  
+                            <option value="col">Colombia</option>  
+                            <option value="per">Perú</option>  
+                            <option value="chi">Chile</option>  
+                            <option value="ar">Argentina</option>  
+                        </select>  
+                    </td>  
+                </tr>  
+                <tr>  
+                    <td><strong>Género:</strong></td>  
+                    <td>  
+                        <input type="radio" name="gender" id="pop" value="pop">  
+                        <label for="pop">Pop</label>  
+                        <input type="radio" name="gender" id="rap" value="rap">  
+                        <label for="rap">Rap</label>  
+                        <input type="radio" name="gender" id="rock" value="rock">  
+                        <label for="rock">Rock</label>  
+                        <input type="radio" name="gender" id="electronic" value="electronic">  
+                        <label for="electronic">Electrónica</label>  
+                        <input type="radio" name="gender" id="other" value="other">  
+                        <label for="other">Otro</label>  
+                    </td>  
+                </tr>  
+            </table>  
+            <br>   
+            <div style="text-align: center;">  
+                <button type="submit">Enviar Recomendación</button>  
+            </div>  
+        </form>  
+        
+    </main>  
+    <hr>  
+    <footer>  
+        <h5 style="text-align: center;">Todos los derechos reservados</h5>  
+    </footer>
+   
+   
+</body>
+</html>

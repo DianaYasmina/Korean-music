@@ -1,3 +1,3 @@
-#Tienda de álbumes de KPOP
+#Musica KPOP
 
-Este repocitorio contiene información sobre una tienda de kpop
+Este repocitorio contiene información sobre mi género de música y artistas favoritos
